@@ -1,0 +1,21 @@
+@import '~element-ui/lib/theme-chalk/reset.css';
+@import '~element-ui/lib/theme-chalk/index.css';
+@import '~vue2-animate/dist/vue2-animate.min.css';
+
+@font-face {
+    font-family: 'element-icons';
+    src: url(/fonts/vendor/element-ui/lib/theme-chalk/element-icons.ttf);
+    src: url(/fonts/vendor/element-ui/lib/theme-chalk/element-icons.woff);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.login-box {
+    min-width: 400px;
+    max-width: 800px;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 0; 
+    right: 0;
+}
